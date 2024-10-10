@@ -836,13 +836,13 @@ header nav .showClose {
   color: #fff;
   font-weight: 700;
   margin-top: 20px;
-  width: 500px;
+  min-width: 500px;
   text-align: center;
 }
 
 .advByMe form input {
-  width: 300px;
-  height: 40px;
+  min-width: 300px;
+  min-height: 40px;
   padding-left: 10px;
   outline: none;
   border: none;
@@ -864,7 +864,8 @@ header nav .showClose {
 .advByMe form h4 {
   color: #fff;
   font-weight: 300;
-  width: 600px;
+  min-width: 600px;
+  margin: -50px;
   margin-top: 20px;
 }
 
@@ -875,8 +876,8 @@ header nav .showClose {
   font-weight: 200;
   font-size: 15px;
   padding: 10px;
-  width: 600px;
-  width: 600px;
-  height: 80px;
-  height: 80px;
+  min-width: 600px;
+  max-width: 600px;
+  min-height: 80px;
+  max-height: 80px;
 }
