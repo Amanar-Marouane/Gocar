@@ -20,21 +20,38 @@
                 <li style="padding-right: 10px;"><a href="AboutUs.html">About Us</a></li>
                 <li style="padding-right: 10px;"><a href="Advantages.html">Advantages</a></li>
                 <li style="padding-right: 10px;"><a href="Gallery.html">Gallery</a></li>
-                <li style="padding-right: 10px;"><a href="index.html">Contact Us</a></li>
+                <li style="padding-right: 10px;"><a href="Contact.html">Contact Us</a></li>
             </ul>
             </div>
         </header>
         </section>
-        <div class="advByMe">
-            <form>
-                <h1>Contact Us Form</h1>
-                <input type="text" id="FirstName" placeholder="First Name" required>
-                <input type="text" id="LastName" placeholder="Last Name" required>
-                <input type="email" id="Email" placeholder="username@gmail.comm" required>
-                <input type="text" id="PhoneNumber" placeholder="06XXXXXXXX" required>
-                <h4>Type Your Message Here.....</h4>
-                <textarea required></textarea>
-                <a class="btn">Submit</a>
+        <div class="FormContainer">
+            <form class="Form">
+                <div class="InputsContainers">
+                    <div class="ContactDiv">
+                        <h1 id="Contact">Contact Us</h1>
+                        <hr>
+                    </div>
+                    <div class="Inputs">
+                        <h3>Full Name</h3>
+                        <input type="text" id="FullName" placeholder="Write Your Full Name">
+                    </div>
+                    <div class="Inputs">
+                        <h3>E-mail</h3>
+                        <input type="email" id="Email" placeholder="usernamer@gmail.com">
+                    </div>
+                    <div class="Inputs">
+                        <h3>Phone Number</h3>
+                        <input type="tel" id="PhoneNumber" placeholder="06XXXXXXXX">
+                    </div>
+                    <div class="Inputs">
+                        <h3>Message</h3>
+                        <textarea id="Message" rows="4" cols="30" placeholder="Write Your Message Here"></textarea>
+                    </div>
+                    <div class="Inputs">
+                        <a class="btn" id="Button">Send</a>
+                    </div>
+                </div>
             </form>
         </div>
         <footer class="container">
